@@ -1,4 +1,6 @@
-# Norwegian MCBans File, Translated By: torxskrue 
+#Originally translated by: torxskru
+#Updated By mmaton on 21/09/2011 with help of Adrian R
+#added alt account messages & staff member alerts
 
 unBanMessageSuccess: "%PLAYER% har fått utestengingen fjernet!" 
 unBanMessageError: "Feil under opphevingen av utestengingen %PLAYER% har!" 
@@ -14,7 +16,7 @@ localBanMessageAlready: "%PLAYER% er allerede stengt ute fra denne serveren!"
 globalBanMessagePlayer: "Du har blitt stengt ute, Sjekk MCBans.com" 
 globalBanMessageSuccess: "%PLAYER% har blitt stengt ute [%REASON%]" 
 globalBanMessageError: "Feil under utestengingen av %PLAYER%!" 
-globalBanMessageWarning: ""
+globalBanMessageWarning: "Feil å forby %PLAYER%! Grunnen inneholdt stygt ord: %BADWORD%"
 globalBanMessageGroup: "%PLAYER% er stengt ute av en annen server i samme gruppe som du!"
 globalBanMessageAlready: "%PLAYER% er allerede stengt ute fra denne serveren!" 
 
@@ -31,10 +33,10 @@ formatError: "Feil inntasting!"
 permissionDenied: "Tillatelse nektet!" 
 previousBans: "%PLAYER% har tidligere utestenginger!" 
 underMinRep: "Ryktet ditt er under denne serverens minimumskrav!" 
-overMaxAlts: ""
-altBanned: ""
+overMaxAlts: "du har mer alt kontoer enn denne serveren gjør!"
+altBanned: "du har en alt-konto utestengt fra denne serveren"
 altAccounts: "%PLAYER% har muligens flere kontoer [ %ALTS% ]!" 
-isMCBansMod: "%PLAYER% is an MCBans.com Staff Member!"
+isMCBansMod: "%PLAYER% er en MCBans.com medarbeider"
 youAreMCBansStaff: "You are an MCBans Staff Member!"
 
 newMessage: "Du har %COUNT% ny(e) beskjed(er)!" 
